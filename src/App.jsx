@@ -15,6 +15,7 @@ import AboutJsm from './pages/AboutJsm'
 import Home from './pages/Home'
 import Text from './pages/Text'
 import Slides from './pages/Slides'
+import Marquee from './pages/Marquee'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/about" element={<AboutJsm/>} />
         <Route path='/text' element={<Text/>}/>
         <Route path='/slides' element={<Slides/>}/>
+        <Route path='/marquee' element={<Marquee/>}/>
       </Routes>
   
     </>
