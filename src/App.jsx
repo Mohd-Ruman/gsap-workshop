@@ -33,6 +33,7 @@ function App() {
         <Route path='/slides' element={<Slides/>}/>
         <Route path='/marquee' element={<Marquee/>}/>
         <Route path='/marqueedual' element={<MarqueeDual/>}/>
+        <Route path='/skilltags' element={<SkillTags/>}/>
       </Routes>
   
     </>
