@@ -16,6 +16,7 @@ import Home from './pages/Home'
 import Text from './pages/Text'
 import Slides from './pages/Slides'
 import Marquee from './pages/Marquee'
+import MarqueeDual from './pages/MarqueeDual'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path='/text' element={<Text/>}/>
         <Route path='/slides' element={<Slides/>}/>
         <Route path='/marquee' element={<Marquee/>}/>
+        <Route path='/marqueedual' element={<MarqueeDual/>}/>
       </Routes>
   
     </>

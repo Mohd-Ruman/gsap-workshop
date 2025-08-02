@@ -28,6 +28,9 @@ const Marquee = () => {
       x: '-300vw',
       ease: 'none',
     });
+
+  
+
   }, []);
 
   return (
@@ -39,7 +42,7 @@ const Marquee = () => {
 
       {/* Pinned and animated section */}
       <section className="pin-section h-screen relative overflow-hidden bg-black">
-        <div className="wrapper absolute top-1/2 -translate-y-1/2 flex w-fit text-white">
+        <div className="wrapper absolute top-1/2 -translate-y-1/2  text-white">
           <h1 className="marquee-text ml-4 text-[50vh] font-light whitespace-nowrap">
             This page is created by me.
           </h1>
