@@ -17,7 +17,7 @@ import Text from './pages/Text'
 import Slides from './pages/Slides'
 import Marquee from './pages/Marquee'
 import MarqueeDual from './pages/MarqueeDual'
-
+import SkillTags from './pages/SkillTags'
 
 function App() {
   const [count, setCount] = useState(0)

@@ -4,6 +4,7 @@ import React from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/all';
+import Splash1 from '../components/splashscreens/Splash1';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -50,6 +51,7 @@ const SkillTags = () => {
 
   return (
     <>
+      <Splash1/>
       <section className="h-screen w-screen" />
 
       {/* Pin this whole section */}
