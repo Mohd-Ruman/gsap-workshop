@@ -1,5 +1,6 @@
 import React from 'react'
 import AnimatedTitle from '../components/AnimatedTitle'
+import TextReveal from '../components/text/TextReveal'
 
 const Text = () => {
   return (
@@ -22,6 +23,11 @@ const Text = () => {
 
         
         </div>
+
+        <section className='w-screen h-screen bg-black flex items-center justify-center'>
+          <TextReveal text={'This text revelation animation <br/> is amazing.'}/>
+        </section>
+  
     </>
   )
 }
