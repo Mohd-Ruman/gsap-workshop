@@ -18,6 +18,7 @@ import Slides from './pages/Slides'
 import Marquee from './pages/Marquee'
 import MarqueeDual from './pages/MarqueeDual'
 import SkillTags from './pages/SkillTags'
+import TextGradient from './pages/TextGradient'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,6 +35,7 @@ function App() {
         <Route path='/marquee' element={<Marquee/>}/>
         <Route path='/marqueedual' element={<MarqueeDual/>}/>
         <Route path='/skilltags' element={<SkillTags/>}/>
+        <Route path='/textgradient' element={<TextGradient/>}/>
       </Routes>
   
     </>

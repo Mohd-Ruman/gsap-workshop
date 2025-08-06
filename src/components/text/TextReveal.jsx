@@ -26,7 +26,7 @@ const TextReveal = ({ text }) => {
     
         tl.from(splitted.lines, {
             y: 100,
-           autoAlpha: 1,
+            autoAlpha: 1,
         })
 
     }, []);
@@ -37,10 +37,9 @@ const TextReveal = ({ text }) => {
         <div className='rv-container'>
              {text.split("<br/>").map((line, index) => (
                 <div key={index} className="rv-text overflow-hidden">
-                <p className="text-white text-7xl leading-snug">{line}</p>
+                <p className="text-white text-[5vw] leading-snug">{line}</p>
                 </div>
             ))}
-            
         </div>
     </>
   )
